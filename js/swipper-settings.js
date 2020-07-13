@@ -32,10 +32,10 @@ var pr = el.getElementsByClassName("swiper-button-prev")[0];
 var pag = el.getElementsByClassName("swiper-pagination")[0];
 
 new Swiper(swiper, {
-  // autoplay: {
-  //   delay: 4000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
+  },
   loop          : true,
   centeredSlides: true,
   keyboard      : true,

@@ -36,12 +36,21 @@ body {
     padding: 7em 0;
     overflow: hidden;
     &--bg {
-        background-image: url("../img/bg-section_1.jpg");
+        background-image: url("../img/bg-section_1-min.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         background-color: $backing-color;
+        @media screen and ( max-width: 992px ) {
+            background-image: url("../img/bg-section_1-min_992.jpg");
+        }
+        @media screen and ( max-width: 768px ) {
+            background-image: url("../img/bg-section_1-min_768.jpg");
+        }
+        @media screen and ( max-width: 576px ) {
+            background-image: url("../img/bg-section_1-min_576.jpg");
+        }
     }
     &--light-grey {
         background-color: $bgLightGrey-color;
@@ -49,7 +58,16 @@ body {
 
     &--bg-violet {
         background-color: $backing-color;
-        background-image: url( "../img/bg-section_4.jpg");
+        background-image: url( "../img/bg-section_4-min.jpg");
+        @media screen and ( max-width: 992px ) {
+            background-image: url("../img/bg-section_4-min_992.jpg");
+        }
+        @media screen and ( max-width: 768px ) {
+            background-image: url("../img/bg-section_4-min_768.jpg");
+        }
+        @media screen and ( max-width: 576px ) {
+            background-image: url("../img/bg-section_4-min_576.jpg");
+        }
     }
     &--npdng {
         padding: 2.2em;
@@ -563,7 +581,7 @@ h1 {
         height: 85px;
         background-color: rgb(112, 110, 197);
         &::after {
-            content: url("../img/arrow_up.png");
+            content: url("../img/arrow_up-min.png");
             color: $white-color;
             font-size: 3rem;
             position: absolute;
