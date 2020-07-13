@@ -3,6 +3,7 @@
 Начал делать раньше, чем получил сообщение об cbd, поэтому продолжил digitalproducts.
 
 GitHub Pages - https://eduardsyndetskyi.github.io/Exam-3_digitalproducts/
+
 000webhost - https://digitalproducts1.000webhostapp.com/
 
 Результаты тестов - 
